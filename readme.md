@@ -1,0 +1,2 @@
+<h1>College Enquiry Chatbot</h1>
+It is a simple chatbot that can be used to get information about a college. Its interface is build using HTML, CSS and JavaScript.Backend is build using python and flask framework. It uses natural language processing to understand the user's query and provide relevant information.

@@ -1,0 +1,68 @@
+# ==================================
+# 🌐 GLOBAL IGNORES
+# ==================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==================================
+# ⚙️ BACKEND - PYTHON (Flask + FAISS)
+# ==================================
+
+# Virtual Environment & Environment Variables
+backend/venv/
+backend/.env
+
+# Bytecode & Caches
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/*.pyd
+backend/data/__pycache__/
+
+# FAISS Embeddings & Pickles
+backend/embeddings/faiss_index/
+*.pkl
+*.bin
+
+# Firebase Secret Key
+backend/firebase-service-key.json
+
+# ==================================
+# 🧑‍💻 FRONTEND - React (Vite)
+# ==================================
+
+# Node modules and builds
+frontend/front-end/node_modules/
+frontend/front-end/dist/
+frontend/front-end/build/
+frontend/front-end/.vite/
+frontend/front-end/.next/
+frontend/front-end/.cache/
+
+# Public artifacts
+frontend/front-end/public/vite.svg
+frontend/front-end/public/
+
+# Temp logs and debug files
+frontend/front-end/*.log
+frontend/front-end/npm-debug.log*
+frontend/front-end/yarn-debug.log*
+frontend/front-end/yarn-error.log*
+frontend/front-end/pnpm-debug.log*
+frontend/front-end/lerna-debug.log*
+
+# Local envs
+frontend/.env
+frontend/.env.local
+
+# ==================================
+# 🧠 IDEs & EDITORS
+# ==================================
+.vscode/
+.idea/
+

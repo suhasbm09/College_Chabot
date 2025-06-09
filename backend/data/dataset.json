@@ -1,0 +1,27 @@
+[
+  {"input":"Hi","response":"Hello! How can I assist you today?"},
+  {"input":"How are you?","response":"I'm doing great, thanks for asking! How about you?"},
+  {"input":"Bye","response":"Goodbye! Have a great day at NIE!"},
+
+  {"input":"Campus","response":"NIE has two campuses in Mysuru: South and North. Reply with 'South Campus' or 'North Campus' to learn more."},
+  {"input":"South Campus","response":"🏛 **South Campus**\n• Address: Manandavadi Road, Mysuru, Karnataka 570008\n• Email: southcampus@nie.ac.in | Phone: +91‑821‑2481220\n• Established: 1946, core academic hub, admin block, engineering departments, central library."},
+  {"input":"North Campus","response":"🏛 **North Campus**\n• Address: Koorgalli Industrial Area, Mysuru‑570018\n• Email: northcampus@nie.ac.in | Phone: +91‑821‑2402930\n• Established 2000s, focuses on postgraduate studies, research labs, incubation centre."},
+
+  {"input":"Academics","response":"**Academics at NIE**\n• Undergraduate: BE degrees across 6+ departments.\n• Postgraduate: M.Tech and MCA across 7+ programs.\n• Doctoral: PhD options in 7+ disciplines.\nExperienced faculty, strong industry and research collaboration."},
+
+  {"input":"Seats","response":"Seat intake per BE program varies: CET, COMEDK, Management quotas – check NIE website or brochures for exact numbers per course."},
+
+  {"input":"Hostel","response":"**Hostels**\n• Boys and girls hostels available.\n• Facilities: open-air amphitheatre, gym, Wi-Fi, common lobbies, laundry, hot water supply."},
+
+  {"input":"Sports","response":"**Sports & Recreation**\n• Supports 23+ sports (indoor/outdoor).\n• Facilities include gym, cricket ground, badminton, table tennis—ranked in top VTU institutes."},
+
+  {"input":"Library","response":"NIE’s library is resource-rich with diverse materials, journals, and supports all academic programs."},
+
+  {"input":"Principal","response":"The Principal is **Dr Rohini Nagapadma**, leading academics, research & student initiatives at NIE. 📘"},
+
+  {"input":"Events","response":"**Campus Events**\n• Annual tech‑cultural fest TechNIEks.\n• Clubs & competitions: IEEE, NSS, debate, theatre, technical expos.\n• Innovation projects like biogas systems, mobile planetarium."},
+
+  {"input":"Placements","response":"**Placements**\n• 450+ companies annually.\n• 260+ IT & 150+ core recruiters.\n• Top recruiters: Cisco, Wipro, Microsoft, ABB, Mercedes, L&T, Broadcom, Intuit.\n• Highest package: ₹46.5 LPA in CSE."},
+
+  {"input":"Admissions","response":"**Admissions info**\n• Criteria: 45% marks in PCM for general CET/COMEDK; 55% for management quota.\n• Quotas: CET, COMEDK, Management."}
+]

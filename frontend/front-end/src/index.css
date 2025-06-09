@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@keyframes dotBounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.dot-bounce {
+  animation: dotBounce 1.4s infinite ease-in-out both;
+}
+.dot-bounce-delay-200 {
+  animation-delay: 0.2s;
+}
+.dot-bounce-delay-400 {
+  animation-delay: 0.4s;
+}

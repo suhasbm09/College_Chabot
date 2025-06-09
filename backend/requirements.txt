@@ -1,0 +1,14 @@
+flask
+flask-cors
+firebase-admin
+
+langchain
+faiss-cpu
+openai
+tiktoken
+sentence-transformers
+numpy
+
+python-dotenv
+PyMuPDF       # (for reading PDFs)
+unstructured  # ( text parsing)
