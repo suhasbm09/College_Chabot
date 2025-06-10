@@ -1,4 +1,3 @@
-// src/components/Chatbot.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/nielogo.png";

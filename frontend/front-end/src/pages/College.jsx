@@ -1,4 +1,3 @@
-// src/pages/College.jsx
 import React from 'react'
 import SouthCampus from '../assets/NIE_South.jpg'
 import NorthCampus from '../assets/NIE_North.jpg'
@@ -12,13 +11,13 @@ import MapNorth from '../assets/image.png'
 const College = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white overflow-x-hidden">
-      {/* ===== Animated Glow Background ===== */}
+      {/* Glow Background */}
       <div className="absolute inset-0 pointer-events-none">
         <span className="absolute top-32 left-16 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl animate-pulse" />
         <span className="absolute bottom-32 right-16 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse" />
       </div>
 
-      {/* ===== Hero Section ===== */}
+      {/* Hero Section  */}
       <section className="relative w-full h-screen flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center filter brightness-50 z-0"
@@ -37,7 +36,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== Notice & Highlights ===== */}
+      {/* Notice and Highlights */}
       <section className="py-20 px-6 flex justify-center">
         <div className="w-full max-w-4xl bg-white/10 backdrop-blur-2xl rounded-3xl border border-white/20 p-10 drop-shadow-2xl">
           <h2 className="text-4xl text-cyan-400 font-semibold mb-6 text-center">
@@ -63,7 +62,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== Campus Showcase ===== */}
+      {/* Campus */}
       <section className="py-20 px-6">
         <h2 className="text-4xl text-cyan-400 font-semibold text-center mb-12">
           Explore Our Campuses
@@ -98,7 +97,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== About Us ===== */}
+      {/* About Us */}
       <section className="py-20 px-6">
         <h2 className="text-4xl text-cyan-400 font-semibold text-center mb-12">
           Why NIE?
@@ -128,7 +127,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== Principal's Message ===== */}
+      {/* Principal's Message */}
       <section className="py-20 px-6">
         <h2 className="text-4xl text-cyan-400 font-semibold text-center mb-12">
           Principal’s Message
@@ -150,7 +149,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== Explore Courses ===== */}
+      {/*Explore Courses*/}
       <section className="py-20 px-6">
         <h2 className="text-4xl text-cyan-400 font-semibold text-center mb-12">
           Explore Programs
@@ -189,7 +188,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== Visit Us ===== */}
+      {/*  Visit Us  */}
       <section className="py-20 px-6">
         <h2 className="text-4xl text-cyan-400 font-semibold text-center mb-12">
           Plan a Visit
@@ -234,7 +233,7 @@ const College = () => {
         </div>
       </section>
 
-      {/* ===== Call-to-Action ===== */}
+      {/*  Call-to-Action  */}
       <section className="py-20 px-6 flex justify-center">
         <button className="px-12 py-4 text-2xl font-bold rounded-full bg-gradient-to-r from-cyan-500 to-indigo-600 shadow-2xl hover:scale-105 hover:shadow-cyan-500/50 transition duration-300">
           Apply Now
@@ -244,4 +243,4 @@ const College = () => {
   )
 }
 
-export default College
+export default College;

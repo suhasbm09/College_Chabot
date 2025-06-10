@@ -19,7 +19,7 @@
 ## 🧱 Project Structure
 
 ```
-COLLEGE\_ENQUIRY\_CHATBOT/
+College\_Chatbot/
 ├── backend/
 │   ├── app.py                      # Flask API entry
 │   ├── rag\_pipeline.py            # RAG logic (FAISS + embeddings + OpenRouter)
@@ -50,6 +50,13 @@ COLLEGE\_ENQUIRY\_CHATBOT/
 ---
 
 ## ⚙️ Setup Instructions
+
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/suhasbm09/College_Chatbot.git
+cd College_Chatbot
+```
 
 ### 🔧 Backend
 
@@ -110,14 +117,29 @@ Update `data/dataset.json` regularly for improved relevance and coverage.
 
 ---
 
-## 📮 Feedback with Firebase
+## 📮 Feedback with Firebase (Suggestion Box)
 
-After each response, users can mark it as:
+After interacting with the chatbot, users are encouraged to leave a suggestion or comment about their experience. This serves as a feedback loop to improve the system and address unanswered queries.
 
-* ✅ Helpful
-* ❌ Not Helpful
+🧾 Feedback Form Includes:
 
-All feedback is stored in **Firestore**, useful for future training or moderation.
+    📧 Email Address
+
+    💬 Suggestion / Query / Comment
+
+    ⭐ Rating (1 to 5 stars)
+
+All feedback is securely stored in Firebase Firestore, allowing developers to:
+
+    Review suggestions for improvements
+
+    Track user satisfaction trends over time
+
+    Identify missing information in the chatbot knowledge base
+
+🛠️ Setup: Create a Firebase project at console.firebase.google.com, enable Firestore, and download the service account key (firebase-service-key.json). Place it inside the backend/ directory. The backend is already configured to use this key securely.
+
+    You can extend this system to filter, search, or export responses for future dataset enhancement or model fine-tuning.
 
 ---
 

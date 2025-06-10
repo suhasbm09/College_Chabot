@@ -1,5 +1,3 @@
-# backend/rag_pipeline.py
-
 import os
 import json
 import requests
@@ -13,7 +11,7 @@ from bs4 import BeautifulSoup
 
 load_dotenv()
 
-# --- Paths ---
+
 DATA_PATH = "./data/dataset.json"
 INDEX_PATH = "./embeddings/faiss_index/index.bin"
 EMBEDDINGS_PATH = "./embeddings/faiss_index/embeddings.pkl"
