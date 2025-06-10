@@ -3,6 +3,11 @@
 > NIBO is a voice-enabled, AI-powered chatbot created to answer queries about **NIE College, Mysuru** using Retrieval-Augmented Generation (RAG), vector search (FAISS), and contextual language modeling (OpenRouter API). Designed with simplicity, speed, and student experience in mind.
 
 ---
+## 🖼️ Chatbot Interface Preview
+
+Here’s a preview of **NIBO – NIE College Chatbot** in action:
+
+![NIBO Chatbot Interface](./frontend/front-end/public/chatbot.png)
 
 ## ✨ Features
 
@@ -170,6 +175,15 @@ All feedback is securely stored in Firebase Firestore, allowing developers to:
 **Suhas B M**
 📧 [suhaasbm2004@gmail.com](mailto:suhaasbm2004@gmail.com)
 🔗 [GitHub Profile](https://github.com/suhasbm09)
+
+**Suhas B H**
+🔗 [GitHub Profile](https://github.com/Suhas37BH) 
+
+**Nischith S**
+🔗 [GitHub Profile](https://github.com/Nischith-SV) 
+
+**Rohan P N**
+🔗 [GitHub Profile](https://github.com/rohanpn46)
 
 ---
 

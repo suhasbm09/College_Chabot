@@ -46,7 +46,7 @@ frontend/front-end/.cache/
 
 # Public artifacts
 frontend/front-end/public/vite.svg
-frontend/front-end/public/
+
 
 # Temp logs and debug files
 frontend/front-end/*.log
